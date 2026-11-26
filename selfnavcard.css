@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #0b0f19;
+    overflow-x: hidden;
+}
+
+/* Top Navbar */
+#navbar {
+    height: 75px;
+    background-color: #090d1b;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+#navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-image {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #3b66f5; /* Placeholder color until you add your image */
+}
+
+.logo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#navbar .menus {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+#navbar .menus div {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: color 0.2s;
+}
+
+#navbar .menus div:hover {
+    color: #3b66f5;
+}
+
+#navbar .menus .home {
+    background-color: #3b66f5;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+#navbar .socialicons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+
+#navbar .socialicons div {
+    cursor: pointer;
+}
+
+/* Main Content Area */
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 140px;
+    min-height: calc(100vh - 75px);
+}
+
+/* Left Typography */
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.95;
+}
+
+.rrblack {
+    font-size: 96px;
+    font-weight: 900;
+    color: #090d1b;
+    letter-spacing: -2px;
+}
+
+.nblue {
+    font-size: 96px;
+    font-weight: 900;
+    color: #3b66f5;
+    letter-spacing: -2px;
+}
+
+
+.box {
+    width: 280px;
+    min-height: 480px;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
