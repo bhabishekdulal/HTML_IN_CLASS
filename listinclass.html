@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Todo List</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    .navbar {
+      background-color: rgb(82, 10, 118);
+      padding: 15px;
+      text-align: center;
+      border-bottom: 2px solid black;
+    }
+
+    .container {
+      width: 350px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .card {
+      border: 2px solid black;
+      padding: 10px 10px 10px 30px;
+      margin: 12px 0;
+      text-align: left;
+      font-size: 16px;
+    }
+
+    .card ol {
+      margin: 0;
+      padding-left: 0;
+    }
+
+    .edit-btn {
+      padding: 8px 18px;
+      font-size: 16px;
+      background-color: white;
+      border: 2px solid black;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h2>My Todo List</h2>
+  </div>
+
+  <div class="container">
+    <h3>All Todos</h3>
+
+    <div class="card">
+      <ol type="a" start="1">
+        <li>Learn Javascript</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <ol type="a" start="2">
+        <li>Study CSS</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <ol type="a" start="3">
+        <li>Design Html</li>
+      </ol>
+    </div>
+
+    <button class="edit-btn">Edit</button>
+  </div>
+
+</body>
+</html>
